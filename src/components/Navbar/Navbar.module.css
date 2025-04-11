@@ -9,13 +9,13 @@
 
 .navHeading {
   color: darkblue;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
 .buttonContainer {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .noStyleButton {
@@ -35,6 +35,24 @@
   color: white;
   font-size: 0.7rem;
   cursor: pointer;
+}
+
+@media (min-width: 400px){
+    .navHeading {
+        font-size: 1rem;
+    }
+
+    .noStyleButton {
+        font-size: 0.6rem;
+    }
+
+    .loginButton {
+        font-size: 0.7rem;
+    }
+
+    .buttonContainer {
+        gap:1.5rem;
+    }
 }
 
 @media (min-width: 640px) {

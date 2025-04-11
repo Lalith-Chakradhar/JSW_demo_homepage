@@ -3,7 +3,7 @@
 }
 
 .mainHeading{
-    margin-left: 3.1em;
+    margin-left: 2em;
     margin-bottom: 1.5em;
     font-size: 3rem;
     color: darkblue;
@@ -56,4 +56,14 @@
 
 .eventText{
     color: rgb(102, 101, 101);
+}
+
+
+@media (min-width: 468px) {
+    .mainHeading{
+        margin-left: 3.1em;
+        margin-bottom: 1.5em;
+        font-size: 3rem;
+        color: darkblue;
+    }
 }
