@@ -1,38 +1,51 @@
-.navContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 85%;
-    margin: auto;
-    padding: 0.7em;
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 0.7em;
 }
 
-.navHeading{
-    color: darkblue;
+.navHeading {
+  color: darkblue;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.noStyleButton {
+  font-size: 0.6rem;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginButton {
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  background-color: darkblue;
+  color: white;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .navHeading {
     font-size: 1.3rem;
-    font-weight: 700;
-}
-
-.buttonContainer{
-    display: flex;
-    gap: 1.5rem;
-}
-
-.noStyleButton{
+  }
+  .noStyleButton {
     font-size: 0.9rem;
-    border: none;
-    background-color: white;
-    font-weight: 600;
-    cursor: pointer;
-}
+  }
 
-.loginButton{
-    padding: 0.7em 1.5em;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    background-color: darkblue;
-    color: white;
+  .loginButton {
     font-size: 1rem;
-    cursor: pointer;
+  }
 }

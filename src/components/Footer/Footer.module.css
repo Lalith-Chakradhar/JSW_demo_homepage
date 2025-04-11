@@ -1,0 +1,36 @@
+.footerContainer{
+    padding: 2em 5em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footerNoteContainer{
+    width: 19em;
+}
+
+.footerHeading{
+    margin-bottom: 2em;
+}
+
+.footerItem{
+    margin-bottom: 2em;
+    font-size: 0.9rem;
+}
+
+.contactDetails{
+    margin-top: 1.2em;
+}
+
+.disclaimerBox{
+    margin-top: 3em;
+    font-size: 0.8rem;
+    background-color: rgb(243, 243, 243);
+    padding: 3em 6em;
+}
+
+.disclaimerBox p {
+    color: gray;
+}

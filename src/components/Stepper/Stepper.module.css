@@ -2,6 +2,20 @@
     padding: 2em;
 }
 
+.mainHeading{
+    margin-left: 3.1em;
+    margin-bottom: 1.5em;
+    font-size: 3rem;
+    color: darkblue;
+}
+
+.eventListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6.5em;
+}
+
 .eventContainer{
     display: flex;
     flex-direction: column;
