@@ -1,0 +1,210 @@
+.carouselContainer {
+    width: 10em;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 10em;
+    left: 1em;
+    transition: transform 1s ease-in-out;
+}
+
+.carouselContainer h1 {
+    font-size: 1rem;
+}
+
+.carouselContainer p {
+    font-size: 0.6rem;
+}
+
+.carouselContextContainer {
+    height: 6em;
+}
+
+.carouselCircleContainer {
+    display: flex;
+    gap: 3px;
+    margin-left: 4em;
+}
+
+.currentSlideCircle, .slideCircle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.currentSlideCircle {
+    background-color: rgb(68, 68, 68);
+}
+
+.slideCircle {
+    background-color: white;
+}
+
+
+@media (min-width: 468px) {
+    .carouselContainer h1 {
+        font-size: 1.2rem;
+        margin-top: 0.6em;
+    }
+
+    .carouselContextContainer {
+        height: 7em;
+    }
+}
+
+
+@media (min-width: 500px) {
+    .carouselContainer {
+        top: 9em;
+        left: 2em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 1.4rem;
+    }
+
+    .carouselContainer p {
+        font-size: 0.6rem;
+    }
+
+    .carouselContextContainer {
+        height: 9em;
+    }
+}
+
+@media (min-width: 600px) {
+    .carouselContainer {
+        width: 12em;
+        top: 9em;
+        left: 2em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 1.6rem;
+    }
+
+    .carouselContainer p {
+        font-size: 0.8rem;
+    }
+
+    .carouselContextContainer {
+        height: 10em;
+    }
+}
+
+@media (min-width: 768px) {
+    .carouselContainer {
+        width: 14em;
+        top: 10em;
+        left: 2.5em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 2rem;
+    }
+
+    .carouselContainer p {
+        font-size: 0.9rem;
+    }
+
+    .carouselContextContainer {
+        height: 14em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .carouselContainer {
+        width: 17em;
+        top: 12em;
+        left: 4em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 2.5rem;
+    }
+
+    .carouselContainer p {
+        font-size: 1.2rem;
+    }
+
+    .carouselCircleContainer {
+        gap: 5px;
+        margin-left: 5.5em;
+    }
+
+    .carouselContextContainer {
+        height: 16em;
+    }
+
+    .currentSlideCircle, .slideCircle {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carouselContainer {
+        width: 20em;
+        top: 12em;
+        left: 4em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 2.6rem;
+    }
+
+    .carouselContainer p {
+        font-size: 1.5rem;
+    }
+
+    .carouselCircleContainer {
+        gap: 5px;
+        margin-left: 7em;
+    }
+    
+    .carouselContextContainer {
+        height: 20em;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    .carouselContainer {
+        width: 13em;
+        font-size: 2.8rem;
+        top: 7em;
+        left: 4em;
+    }
+
+    .carouselContainer h1 {
+        font-size: 4rem;
+    }
+
+    .carouselContainer p {
+        font-size: 2rem;
+    }
+
+    .carouselContextContainer {
+        height: 9em;
+    }
+
+    .carouselCircleContainer {
+        gap: 5px;
+        margin-left: 5.5em;
+    }
+
+    .currentSlideCircle, .slideCircle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .currentSlideCircle {
+        background-color: rgb(68, 68, 68);
+    }
+
+    .slideCircle {
+        background-color: white;
+    }
+}

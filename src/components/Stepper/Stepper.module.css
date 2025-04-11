@@ -1,0 +1,45 @@
+.mainContainer{
+    padding: 2em;
+}
+
+.eventContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.stepperDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lineConnector{
+    height: 4em;
+    width: 2px;
+    background-color: darkblue;
+}
+
+.lineConnector :last-child{
+    display: none;
+}
+
+.eventDetailsText{
+    margin-top: 0.3em;
+}
+
+.eventDetails{
+    display: flex;
+    gap: 10px;
+}
+
+.eventDate{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.eventText{
+    color: rgb(102, 101, 101);
+}
