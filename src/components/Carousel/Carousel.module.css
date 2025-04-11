@@ -1,15 +1,17 @@
 .carouselContainer {
-    width: 10em;
+    width: 9em;
     color: white;
     font-size: 1rem;
     position: absolute;
-    top: 6em;
+    top: 6.3em;
     left: 1em;
     transition: transform 1s ease-in-out;
 }
 
 .carouselContainer h1 {
     font-size: 1rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .carouselContainer p {
@@ -17,7 +19,7 @@
 }
 
 .carouselContextContainer {
-    height: 6em;
+    height: 5.8em;
 }
 
 .carouselCircleContainer {
@@ -45,7 +47,7 @@
 @media (min-width: 468px) {
     .carouselContainer h1 {
         font-size: 1.2rem;
-        margin-top: 0.6em;
+        margin-top: 1em;
     }
 
     .carouselContextContainer {
@@ -69,7 +71,7 @@
     }
 
     .carouselContextContainer {
-        height: 9em;
+        height: 8.5em;
     }
 }
 
@@ -109,7 +111,7 @@
     }
 
     .carouselContextContainer {
-        height: 14em;
+        height: 12em;
     }
 }
 
