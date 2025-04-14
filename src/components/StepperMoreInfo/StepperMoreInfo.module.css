@@ -1,0 +1,14 @@
+.mainContainer{
+    height: 10em;
+    width: 26em;
+}
+
+
+.imageContainer{
+    width: 85%;
+    padding: 1em;
+}
+
+.imageStyles{
+    width: 100%;
+}

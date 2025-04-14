@@ -11,8 +11,6 @@
 
 .eventListContainer{
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 6.5em;
 }
 
@@ -30,7 +28,7 @@
 }
 
 .lineConnector{
-    height: 4em;
+    height: 6em;
     width: 2px;
     background-color: darkblue;
 }
@@ -46,6 +44,7 @@
 .eventDetails{
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
 .eventDate{
@@ -58,6 +57,13 @@
     color: rgb(102, 101, 101);
 }
 
+.selectedEvent{
+    background-color: rgb(206, 206, 255);
+    border-radius: 20px;
+    padding: 1em;
+    height: 5em;
+    margin-top: -1em;
+}
 
 @media (min-width: 468px) {
     .mainHeading{
