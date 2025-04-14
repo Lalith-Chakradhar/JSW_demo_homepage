@@ -14,6 +14,7 @@
     margin-bottom: 6.5em;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 2em;
 }
 
 .eventContainer{
@@ -30,7 +31,7 @@
 }
 
 .lineConnector{
-    height: 6em;
+    height: 8em;
     width: 2px;
     background-color: darkblue;
 }
@@ -41,7 +42,7 @@
 
 .eventDetailsText{
     margin-top: 0.3em;
-    width: 40em;
+    max-width: 36em;
 }
 
 .eventDetails{
@@ -64,8 +65,17 @@
     background-color: rgb(206, 206, 255);
     border-radius: 20px;
     padding: 1em;
-    height: 5em;
     margin-top: -1em;
+    height: inherit;
+}
+
+.eventDetailsText:hover{
+    background-color: rgb(226, 226, 245);
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: -1em;
+    height: inherit;
+    transition: all 0.3s ease-in-out;
 }
 
 @media (min-width: 468px) {
@@ -75,4 +85,21 @@
         font-size: 3rem;
         color: darkblue;
     }
+
+    .selectedEvent{
+        height: 7em;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .eventDetailsText:hover{
+        height: 7em;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .lineConnector{
+        height: 6em;
+    }
+
 }

@@ -1,15 +1,52 @@
 .mainContainer{
-    width: 40em;
-    height: 40em;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: linear-gradient(to right, #5a6579, #001f54);
+    position: relative;
+    padding: 2em;
 }
 
 
 .imageContainer{
-    width: 85%;
-    padding: 1em;
+    padding: 0.5em;
+    background: linear-gradient(to right, #5a6579, #001f54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imageStyles{
     width: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+
+.moreInfoContextContainer{
+    padding: 0.1em;
+    color: rgb(102, 101, 101);
+}
+
+
+@media (min-width: 468px) {
+    .mainContainer{
+        width: 40em;
+        height: 40em;
+        padding: 1em;
+    }
+    
+    .imageContainer{
+        width: 85%;
+        padding: 1em;
+    }
+
+    .imageStyles{
+        border: 10px solid white;
+    }
+
+    .moreInfoContextContainer{
+        padding: 2em;
+    }
 }
