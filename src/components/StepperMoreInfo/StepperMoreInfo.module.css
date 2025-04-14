@@ -1,6 +1,7 @@
 .mainContainer{
-    height: 10em;
-    width: 26em;
+    width: 40em;
+    height: 40em;
+    overflow: auto;
 }
 
 

@@ -12,6 +12,8 @@
 .eventListContainer{
     display: flex;
     margin-bottom: 6.5em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .eventContainer{
@@ -39,6 +41,7 @@
 
 .eventDetailsText{
     margin-top: 0.3em;
+    width: 40em;
 }
 
 .eventDetails{
